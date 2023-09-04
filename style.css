@@ -1,0 +1,60 @@
+body {
+    height: 100vh;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    /* border: 5px solid black; */
+   
+}
+
+.wrapper input:focus{
+    outline: none;
+    border:1px solid #0095da;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+
+.wrapper input{
+    background-color: #F1F2F2;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 10px 10px;
+}
+
+.wrapper input:hover {
+    background-color: #e9ebec;
+}
+
+@media screen and (max-width: 640px) {
+    .container .image img {
+        display: none;
+    }
+}
+@media screen and (max-width: 825px) {
+    .container .image img {
+        display: block;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .container .image img {
+        display: none;
+    }
+
+    .container .right form {
+        width: 100;
+    }
+}
+
+
+.wrapper .cekbox {
+    cursor: pointer;
+
+}
+
+.wrapper a p {
+    font-size: 13px;
+}
+.masuk {
+    font-size: 14px;
+}
