@@ -5,7 +5,12 @@ body {
 }
 .container {
     /* border: 5px solid black; */
+    /* margin-top: 50px; */
    
+}
+
+.row {
+
 }
 
 .wrapper input:focus{
@@ -16,17 +21,30 @@ body {
 }
 
 .wrapper input{
-    background-color: #F1F2F2;
     font-weight: 400;
     font-size: 14px;
     padding: 10px 10px;
+    background-color: #F1F2F2;
+
+}
+
+.wrapper label {
+    color: rgba(25,34,42,.4);
+    font-weight: 500;
+}
+.wrapper label:focus {
+    color: #000;
+    background-color: #000;
+}
+.wrapper input:focus {
+    color: #0095da;
 }
 
 .wrapper input:hover {
     background-color: #e9ebec;
 }
 
-@media screen and (max-width: 640px) {
+/* @media screen and (max-width: 640px) {
     .container .image img {
         display: none;
     }
@@ -44,7 +62,7 @@ body {
     .container .right form {
         width: 100;
     }
-}
+} */
 
 
 .wrapper .cekbox {
@@ -53,7 +71,7 @@ body {
 }
 
 .wrapper a p {
-    font-size: 13px;
+    font-size: 14px;
 }
 .masuk {
     font-size: 14px;
